@@ -3,3 +3,7 @@ channels:
   - conda-forge
   - bioconda
   - defaults
+dependencies:
+  - python==3.11
+  - pip:
+    - cellpose==2.2.2
